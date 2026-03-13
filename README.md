@@ -200,7 +200,7 @@ You can add screenshots like:
 ## 👩‍💻 Author
 
 **Ritika S.**
-MERN Stack Developer | Full Stack Developer
+Aspiring Full Stack Developer
 
 GitHub:
 [https://github.com/Riti2624](https://github.com/Riti2624)
