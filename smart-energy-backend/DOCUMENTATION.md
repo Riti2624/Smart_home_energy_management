@@ -354,8 +354,8 @@ spring:
   
   # Email
   mail:
-    host: ${SPRING_MAIL_HOST:smtp.gmail.com}
-    port: ${SPRING_MAIL_PORT:587}
+    host: ${SPRING_MAIL_HOST}
+    port: ${SPRING_MAIL_PORT}
     username: ${EMAIL_USER}
     password: ${EMAIL_PASS}
   
