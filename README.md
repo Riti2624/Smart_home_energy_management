@@ -1,0 +1,207 @@
+# ⚡ Smart Home Energy Management System
+
+A full-stack **Smart Energy Management System** that allows users to monitor, analyze, and forecast energy usage. The platform provides secure authentication, energy analytics, forecasting insights, and a modern dashboard for efficient power management.
+
+---
+
+## 🚀 Features
+
+### 🔐 Authentication System
+
+* User **Signup and Login**
+* **OTP verification via email**
+* Secure authentication using **JWT tokens**
+* Password protection and validation
+
+### 📊 Energy Dashboard
+
+* Real-time **energy consumption overview**
+* Interactive UI with animated components
+* Summary cards for key metrics
+
+### 📈 Analytics Page
+
+* Visual representation of energy usage
+* Trend analysis with charts
+* Consumption breakdown
+
+### 🤖 Forecast Page
+
+* Predicts future energy consumption
+* Helps users plan energy usage efficiently
+
+### 🏆 Achievements Page
+
+* Tracks user milestones in energy saving
+* Encourages sustainable energy habits
+
+### 🌗 Light / Dark Mode
+
+* Toggle between themes
+* Fully responsive UI with smooth transitions
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* **React.js**
+* **CSS / Animations**
+* **Chart.js / Recharts**
+* Responsive design
+
+### Backend
+
+* **Spring Boot**
+* **Maven**
+* **REST APIs**
+
+### Authentication
+
+* **JWT (JSON Web Tokens)**
+* **Email OTP Verification**
+
+### Database
+
+* **H2 File Database (Local Storage)**
+
+---
+
+## 📂 Project Structure
+
+```
+Smart_home_energy_management
+│
+├── smart_energy_frontend
+│   ├── src
+│   ├── components
+│   ├── pages
+│   └── styles
+│
+├── smart_energy_backend
+│   ├── src/main/java
+│   ├── controllers
+│   ├── services
+│   ├── repositories
+│   └── models
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Riti2624/Smart_home_energy_management.git
+cd Smart_home_energy_management
+```
+
+---
+
+### 2️⃣ Setup Backend
+
+Navigate to backend folder:
+
+```bash
+cd smart_energy_backend
+```
+
+Run Spring Boot application:
+
+```bash
+mvn spring-boot:run
+```
+
+Backend will run on:
+
+```
+http://localhost:8080
+```
+
+---
+
+### 3️⃣ Setup Frontend
+
+Navigate to frontend folder:
+
+```bash
+cd smart_energy_frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm start
+```
+
+Frontend will run on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in backend:
+
+```
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-app-password
+JWT_SECRET=your-secret-key
+JWT_EXPIRATION=86400000
+```
+
+---
+
+## 📸 Screens (Optional)
+
+You can add screenshots like:
+
+* Login Page
+* Dashboard
+* Analytics
+* Forecast Page
+* Achievements Page
+
+---
+
+## 🎯 Use Cases
+
+* Monitor home electricity usage
+* Track consumption trends
+* Predict future energy demand
+* Promote energy-saving habits
+* Smart home management systems
+
+---
+
+## 📌 Future Improvements
+
+* IoT device integration
+* Real-time smart meter data
+* AI-based energy optimization
+* Mobile app version
+* Admin energy monitoring panel
+
+---
+
+## 👩‍💻 Author
+
+**Ritika S.**
+MERN Stack Developer | Full Stack Developer
+
+GitHub:
+[https://github.com/Riti2624](https://github.com/Riti2624)
+
