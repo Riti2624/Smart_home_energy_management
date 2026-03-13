@@ -384,7 +384,7 @@ server:
 
 ```bash
 export DB_URL=jdbc:mysql://production-host:3306/smart_energy_db
-export DB_USERNAME=smartenergy_user
+export DB_USERNAME=db_username
 export DB_PASSWORD=strong_password
 export JWT_SECRET=your-256bit-secret
 export MAIL_USERNAME=noreply@smartenergy.com
