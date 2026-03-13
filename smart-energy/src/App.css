@@ -1,0 +1,33 @@
+/* ============================================================
+   APP.CSS — Global resets & theme transitions
+   ============================================================ */
+
+html {
+  scroll-behavior: smooth;
+  overflow-y: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Smooth theme transitions for EVERY element */
+*,
+*::before,
+*::after {
+  transition:
+    background-color 0.35s ease,
+    background    0.35s ease,
+    color         0.3s ease,
+    border-color  0.3s ease,
+    box-shadow    0.35s ease,
+    fill          0.3s ease;
+}
+
+/* Exempt animation-heavy properties from unwanted transitions */
+*[style*="transition"],
+.sidebar,
+.bar,
+.ring-fill {
+  /* keep their own explicit transitions intact */
+}

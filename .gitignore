@@ -1,0 +1,54 @@
+# Ignore Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.orig
+release.properties
+.flattened-pom.xml
+
+# Ignore IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Ignore Build
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Gradle
+.gradle/
+gradle/
+
+# Ignore Environment
+.env
+.env.local
+.env.*
+.env.*.local
+
+# Ignore Logs
+logs/
+*.log
+spring.log*
+
+# Ignore Temporary Files
+*.tmp
+*.bak
+*~
+
+# Ignore OS
+.DS_Store
+Thumbs.db
+
+# Node (if using npm)
+node_modules/
