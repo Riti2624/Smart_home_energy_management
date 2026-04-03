@@ -129,7 +129,7 @@ http://localhost:8080
 Navigate to frontend folder:
 
 ```bash
-cd smart_energy_frontend
+cd smart_energy
 ```
 
 Install dependencies:
