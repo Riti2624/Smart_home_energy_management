@@ -73,7 +73,7 @@ A full-stack **Smart Energy Management System** that allows users to monitor, an
 ```
 Smart_home_energy_management
 │
-├── smart_energy_frontend
+├── smart_energy
 │   ├── src
 │   ├── components
 │   ├── pages
