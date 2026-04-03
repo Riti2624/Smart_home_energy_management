@@ -165,18 +165,6 @@ JWT_EXPIRATION=86400000
 
 ---
 
-## 📸 Screens (Optional)
-
-You can add screenshots like:
-
-* Login Page
-* Dashboard
-* Analytics
-* Forecast Page
-* Achievements Page
-
----
-
 ## 🎯 Use Cases
 
 * Monitor home electricity usage
